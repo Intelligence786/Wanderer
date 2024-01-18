@@ -11,7 +11,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      leadingWidth: 250.h,
+      leadingWidth: 300.h,
       centerTitle: true,
       forceMaterialTransparency: true,
       leading: leadingWidget,
